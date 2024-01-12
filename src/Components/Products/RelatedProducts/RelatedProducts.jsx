@@ -1,8 +1,4 @@
 import { useState } from "react";
-import capsicum from "../Images/capsicum.png";
-import cauliFlower from "../Images/cauliFlower.png";
-import greenApple from "../Images/greenApple.png";
-import ladiesFinger from "../Images/ladiesFinger.png";
 import AddToCart from "../Images/AddToCart.png";
 import AddTowishlist from "../Images/AddTowishlist.png";
 import QuickView from "../Images/QuickView.png";

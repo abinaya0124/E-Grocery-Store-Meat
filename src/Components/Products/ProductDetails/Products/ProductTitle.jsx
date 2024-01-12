@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { IoIosStar } from "react-icons/io";
-import farmery from "../../Images/farmery.png";
 import { FaFacebookF } from "react-icons/fa6";
-import { FaPinterestP } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { useThemeHook } from "../../../GlobalComponents/ThemeProvider";
 

@@ -1,10 +1,3 @@
-import React from "react";
-import product from "../Images/product.png";
-import product1 from "../Images/product1.png";
-import product2 from "../Images/product2.png";
-import product3 from "../Images/product3.png";
-import product4 from "../Images/product4.png";
-import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import ProductCart from "./Products/ProductCart";
 import ProductTitle from "./Products/ProductTitle";
 
