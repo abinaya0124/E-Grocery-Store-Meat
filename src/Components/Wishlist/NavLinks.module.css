@@ -1,0 +1,70 @@
+@import url('navlinks.css');
+.home {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.chevronDownIcon4 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+.navLinks2 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+}
+.navLinks6 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navLinks1 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.phonecall1Icon {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.callNow {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.navLinks {
+    position: relative;
+    background-color: #ff6316;
+    width: 100%;
+    top:95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 300px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--body-small-body-small-500-size);
+    color: var(--gray-scale-white);
+    font-family: var(--body-small-body-small-500);
+}
+

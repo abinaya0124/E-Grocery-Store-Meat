@@ -1,0 +1,22 @@
+.step-item {
+  @apply relative md:flex flex-col justify-center items-center md:w-36;
+}
+.step-item:not(:first-child):before {
+  @apply content-[''] bg-zinc-200 absolute w-full h-[8px] right-12 md:right-24 top-6 md:top-1/3 -translate-y-2/4;
+}
+.step {
+  @apply w-12 h-12 flex items-center justify-center z-10 relative border-orange-600 border-dashed border-2 bg-white rounded-full font-semibold text-orange-500;
+}
+.active .step {
+  @apply bg-orange-600 text-white;
+}
+.complete .step {
+  @apply bg-orange-600 text-white;
+}
+.complete p {
+  @apply text-orange-600;
+}
+.complete:not(:first-child):before,
+.active:not(:first-child):before {
+  @apply bg-orange-600;
+}

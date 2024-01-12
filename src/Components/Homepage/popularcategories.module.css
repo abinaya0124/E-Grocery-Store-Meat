@@ -1,0 +1,35 @@
+.heading {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Space out content horizontally */
+    top: 50px;
+    width: 1120px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: 1px  rounded;
+    border-radius: 2px;
+    padding: 0 20px; /* Add padding to the left and right */
+    font-family: 'Arial', sans-serif; /* Set font family */
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .heading{
+      width: 100%;
+    }
+  }
+/* Customize the styles for text inside the heading */
+.popular {
+    margin: 0; /* Remove default margin for h1 */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Text color */
+}
+
+.view {
+    color: #FF6316;
+    border: none;
+    margin: 0; /* Remove default margin for paragraphs */
+    font-size: 14px;
+    cursor: pointer;
+}

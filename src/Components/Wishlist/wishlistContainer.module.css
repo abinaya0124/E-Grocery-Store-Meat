@@ -1,0 +1,15 @@
+.main{
+    position: relative;
+    background-color: #fff;
+    top:95px;
+    width: 100%;
+    height: 101%;
+}
+.heading {
+    color: #000000;
+    text-align: center; /* Center the text within the heading */
+    display: flex;
+    top: 20px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+:root {
+  	
+  	/* fonts */
+  	--font-quicksand: Quicksand;
+  	--body-medium-body-medium-400: Poppins;
+  	
+  	/* font sizes */
+  	--body-medium-body-medium-400-size: 16px;
+  	--body-xxl-body-xxl-600-size: 24px;
+  	--body-small-body-small-400-size: 14px;
+  	--body-tiny-body-tiny-400-size: 12px;
+  	
+  	/* Colors */
+  	--gray-scale-gray-900: #000;
+  	--gray-scale-white: #fff;
+  	--branding-success: #ff6316;
+  	--gray-scale-gray-200: #ccc;
+  	--gray-scale-gray-100: #e6e6e6;
+  	--gray-scale-gray-600: #666;
+  	--color-darkgray: #aaa;
+  	
+  	/* Gaps */
+  	--gap-5xs: 8px;
+  	--gap-9xs: 4px;
+  	--gap-base: 16px;
+  	--gap-xs: 12px;
+  	--gap-7xs: 6px;
+  	
+  	/* Paddings */
+  	--padding-base: 16px;
+  	--padding-21xl: 40px;
+  	--padding-sm: 14px;
+  	--padding-5xl: 24px;
+  	--padding-281xl: 300px;
+  	--padding-xs: 12px;
+  	
+  	/* Border radiuses */
+  	--br-481xl: 500px;
+  	--br-24xl: 43px;
+  	--br-7xs: 6px;
+  	--br-5xs: 8px;
+  	--br-3xs: 10px;
+  	
+}
